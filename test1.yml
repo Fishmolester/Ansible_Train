@@ -1,0 +1,7 @@
+---
+- name: Just a test
+  hosts: all
+  become: true
+  tasks:
+   debug:
+    msg: "Let's do a test again"
